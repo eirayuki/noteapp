@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_noteapp_1686209292652-pr-trigger-input-set
+  identifier: Build_noteapp_1686209292652prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_noteapp_1686209292652
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
