@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_noteapp_1686209292652-push-trigger-input-set
+  identifier: Build_noteapp_1686209292652pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_noteapp_1686209292652
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
